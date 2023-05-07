@@ -6,8 +6,10 @@ const userService = new Api()
 
 const RotasProtegidas = () => {
     console.log('children', children)
+
     const usuarioAutenticado = userService.usuarioAutenticado()
-    return usuarioAutenticado ? children : <Rotas />
+
+    return usuarioAutenticado ? children : <Navigate to='login' />
     
 }
 

@@ -12,9 +12,10 @@ const Rotas = () => {
                 <Route path="/teste" element={<h1>TESTE</h1>} />
 
                 <Route
+                    path="menu"
                      element={
                         <RotasProtegidas>
-                            <Route element={<Menu />} path="/home"/>
+                            <Menu />
                         </RotasProtegidas>
                     } >
                 </Route>

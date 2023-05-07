@@ -22,9 +22,12 @@ export default class Api{
     }
 
     usuarioAutenticado () {
-        return localStorage.getItem("token") != undefined ? true : false
-        // return typeof localStorage.getItem("token")
-      }
+        return localStorage.getItem("token") !== null ? true : false        
+    }
+
+    permissao(){
+        return localStorage.getItem("permissao").includes('negociacao') ? true : false        
+    }
 
     async logout(){
         localStorage.removeItem('token')
