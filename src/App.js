@@ -1,6 +1,6 @@
-import Login from './Pages/Login';
+import Login from './Pages/Login/index';
 import Rotas from './Routes/Rotas';
-import GlobalStyle from './styles/global';
+import GlobalStyle from './Styles/global';
 
 
 function App() {

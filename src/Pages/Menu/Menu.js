@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import { Outlet } from 'react-router-dom'
 
 const Menu = () => {
   return (
     <div>
-        <h1>Menu</h1>
+        <Navbar />
+        <Outlet />
     </div>
   )
 }

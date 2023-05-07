@@ -33,6 +33,5 @@ export default class Api{
         localStorage.removeItem('token')
         localStorage.removeItem('email')
         localStorage.removeItem('nome')
-
     }
 }

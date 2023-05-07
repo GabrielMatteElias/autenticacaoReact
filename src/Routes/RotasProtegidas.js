@@ -4,10 +4,11 @@ import Rotas from "./Rotas";
 
 const userService = new Api()
 
-const RotasProtegidas = () => {
-    console.log('children', children)
+const RotasProtegidas = ({children}) => {
+    //console.log('children', children)
 
-    const usuarioAutenticado = userService.usuarioAutenticado()
+    //const usuarioAutenticado = userService.usuarioAutenticado()
+    let usuarioAutenticado = true
 
     return usuarioAutenticado ? children : <Navigate to='login' />
     
