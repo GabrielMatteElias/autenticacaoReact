@@ -1,0 +1,9 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-botao-modal-base{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+

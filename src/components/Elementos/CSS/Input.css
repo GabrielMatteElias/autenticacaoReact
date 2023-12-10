@@ -1,0 +1,27 @@
+
+.label-input-span span {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #557483;
+}
+
+.input {
+    height: 45px;
+    border: 2px solid #55748346;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: #557483;
+    outline: none;
+}
+
+.input:hover, .input:focus {
+    border: 2px solid #557483;
+    transition: 300ms ease-in-out;
+}
+
+.textarea{
+    resize:none;
+    width: 650px;
+    height: 180px;
+}
